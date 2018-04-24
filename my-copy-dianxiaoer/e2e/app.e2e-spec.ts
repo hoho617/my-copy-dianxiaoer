@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('copy-dianxiaoer App', () => {
+describe('my-copy-dianxiaoer App', () => {
   let page: AppPage;
 
   beforeEach(() => {
