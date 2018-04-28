@@ -1,0 +1,33 @@
+<div class="wrapper_head">
+  <div class="head_top">
+    <div class="logo pull-left">
+      <span class="logo_title">客赞</span>
+      <span class="logo_subtitle">| 客户体验收益管理系统</span>
+    </div>
+    <div class="manage_set pull-right">
+      <i class="anticon anticon-mail"></i>
+      <span class="version_info">标准版 | 已到期</span>
+      <span>
+        <nz-dropdown [nzTrigger]="'click'">
+          <a href class="ant-dropdown-link hotel_dropdown" nz-dropdown>
+            <span class="hotel_name">金天鹅国际大酒店</span> <i class="anticon anticon-down"></i>
+          </a>
+          <ul nz-menu>
+            <li nz-menu-item>1st</li>
+            <li nz-menu-item>2st</li>
+            <li nz-menu-item>3st</li>
+          </ul>
+        </nz-dropdown>
+      </span>
+    </div>
+  </div>
+  <div class="head_nav">
+    <ul class="clearfix">
+      <li (click)="sendUrl('/order')" [routerLink]="['/order']" routerLinkActive="navActive">订单</li>
+      <li (click)="sendUrl('/goods')" [routerLink]="['/goods']" routerLinkActive="navActive">商品</li>
+      <li (click)="sendUrl('/client')" [routerLink]="['/client']" routerLinkActive="navActive">客户</li>
+      <li (click)="sendUrl('/comment')" [routerLink]="['/comment']" routerLinkActive="navActive">点评</li>
+      <li (click)="sendUrl('/setting')" [routerLink]="['/setting']" routerLinkActive="navActive">设置</li>
+    </ul>
+  </div>
+</div>

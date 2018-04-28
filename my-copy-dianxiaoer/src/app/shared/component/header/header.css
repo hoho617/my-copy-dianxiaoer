@@ -1,0 +1,58 @@
+.wrapper_head {
+  position: fixed;
+  z-index: 999;
+  top:0;
+  width:100%;
+}
+.head_top {
+  height:50px;
+  line-height: 50px;
+  background: #fff;
+}
+.logo {
+  font-size:14px;
+  color:#90a4ad;
+  margin-left:20px;
+  height:50px;
+}
+.logo_title {
+  font-size:28px;
+  color:#f05a1e;
+}
+.manage_set {
+  font-size:14px;
+  color:#90a4ad;
+  margin-right:20px;
+}
+.manage_set .anticon-mail {
+  font-size:20px;
+  vertical-align: middle;
+}
+.version_info {
+  padding:0 18px;
+}
+.hotel_dropdown {
+  font-size:14px;
+  color:#90a4ad;
+}
+.hotel_name {
+  font-weight:bold;
+}
+.hotel_dropdown .anticon-down {
+  vertical-align: middle;
+}
+.head_nav {
+  height:60px;
+  line-height: 60px;
+  background: #f05a1e;
+}
+.head_nav li {
+  float: left;
+  width:140px;
+  text-align: center;
+  font-size:16px;
+  color:#ffffff;
+}
+.head_nav li.navActive {
+  background: #d25014;
+}

@@ -1,0 +1,30 @@
+.wrapper_sider {
+  position: fixed;
+  top:110px;
+  bottom:0;
+  margin-right:-100%;
+}
+.sider_list {
+
+}
+.sider_list li {
+  /*height:60px;
+  line-height: 60px;*/
+  text-align: center;
+  font-size:14px;
+  color:#fff;
+}
+.ant-menu .ant-menu-item-selected {
+  background-color: #2B4245;
+}
+/*.submenu_item {
+  height:60px;
+  line-height: 60px;
+  text-align: center;
+  font-size:14px;
+  color:#fff;
+}*/
+:host ::ng-deep .submenu_item .ant-menu-submenu-title {
+  text-align: center;
+  padding:0 !important;
+}
